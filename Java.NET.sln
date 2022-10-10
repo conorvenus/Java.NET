@@ -7,7 +7,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Java.NET.Class", "Java.NET.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Java.NET.Tests", "Java.NET.Tests\Java.NET.Tests.csproj", "{CE1E1ED0-C507-4B86-8FC7-602AE1143B1D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Java.NET.Bytecode", "Java.NET.Bytecode\Java.NET.Bytecode.csproj", "{9EFB8F77-5A4A-4A9F-A342-8FED20849FA3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Java.NET.Bytecode", "Java.NET.Bytecode\Java.NET.Bytecode.csproj", "{9EFB8F77-5A4A-4A9F-A342-8FED20849FA3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5CB664F3-C974-4843-B915-4032D33F192F}"
+	ProjectSection(SolutionItems) = preProject
+		README.MD = README.MD
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

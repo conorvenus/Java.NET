@@ -2,7 +2,7 @@
 
 namespace Java.NET.Class.Constants
 {
-	internal class UTF8Constant : ConstantBase
+	public class UTF8Constant : ConstantBase
 	{
 		public string Value { get; }
 

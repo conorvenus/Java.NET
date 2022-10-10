@@ -1,8 +1,7 @@
 ﻿using Java.NET.Class.Constants;
 using Java.NET.Class.Enums;
 using Java.NET.Class.Types;
-using System.Collections.ObjectModel;
-using System.Xml;
+
 using Attribute = Java.NET.Class.Types.Attribute;
 
 namespace Java.NET.Class
@@ -71,7 +70,6 @@ namespace Java.NET.Class
 			for (int i = 1; i < constantPoolCount; i++)
 			{
 				TagType tag = (TagType)reader.ReadByte();
-				Console.WriteLine($"{i}: {Enum.GetName(typeof(TagType), tag)}");
 				switch (tag)
 				{
 					case TagType.UTF_8_STRING:

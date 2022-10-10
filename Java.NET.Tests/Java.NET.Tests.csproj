@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Java.NET.Bytecode\Java.NET.Bytecode.csproj" />
     <ProjectReference Include="..\Java.NET.Class\Java.NET.Class.csproj" />
   </ItemGroup>
 

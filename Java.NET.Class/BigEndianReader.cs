@@ -2,7 +2,7 @@
 
 namespace Java.NET.Class
 {
-	internal sealed class BigEndianReader
+	public sealed class BigEndianReader
 	{
 		private readonly byte[] _bytes;
 		private int _offset = 0;

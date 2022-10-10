@@ -2,7 +2,7 @@
 
 namespace Java.NET.Class.Constants
 {
-	internal class StringConstant : ConstantBase
+	public class StringConstant : ConstantBase
 	{
 		public ushort StringIndex { get; }
 
